@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Keyboard</title>
+    <link rel="stylesheet" href="./output.css" />
+    <style>
+      .clear {
+        background-color: red;
+      }
+      .submit {
+        background-color: green;
+      }
+    </style>
+  </head>
+  <body class="flex justify-center items-center flex-col h-lvh">
+    <p class="mb-10">
+      RESULTANT WORD :
+      <a href="#" id="res"><span class="border-2" id="result"></span></a>
+    </p>
+    <textarea
+      name=""
+      id="click"
+      class="mb-2 border-2 border-black"
+      style="box-shadow: 5px 10px 10px"
+    ></textarea>
+    <div>
+      <button
+        onclick="blue()"
+        class="p-2 bg-green-600 text-black border-2 rounded-full mb-2 clear"
+        style="box-shadow: 5px 10px 10px"
+      >
+        Clear
+      </button>
+      <button
+        onclick="submit()"
+        class="p-2 bg-green-600 text-black border-2 rounded-full mb-2 submit"
+        style="box-shadow: 5px 10px 10px"
+      >
+        Submit
+      </button>
+    </div>
+    <div
+      class="bg-white border-2 border-black p-10"
+      style="box-shadow: 5px 10px 10px"
+    >
+      <button onclick="a()" class="border-2 bg-black text-white p-4 m-2">
+        A
+      </button>
+      <button onclick="b()" class="border-2 bg-black text-white p-4 m-2">
+        B
+      </button>
+      <button onclick="c()" class="border-2 bg-black text-white p-4 m-2">
+        C
+      </button>
+      <button onclick="d()" class="border-2 bg-black text-white p-4 m-2">
+        D
+      </button>
+      <button onclick="e()" class="border-2 bg-black text-white p-4 m-2">
+        E
+      </button>
+      <button onclick="f()" class="border-2 bg-black text-white p-4 m-2">
+        F
+      </button>
+      <button onclick="g()" class="border-2 bg-black text-white p-4 m-2">
+        G
+      </button>
+      <button onclick="h()" class="border-2 bg-black text-white p-4 m-2">
+        H
+      </button>
+      <button onclick="i()" class="border-2 bg-black text-white p-4 m-2">
+        I
+      </button>
+      <button onclick="j()" class="border-2 bg-black text-white p-4 m-2">
+        J
+      </button>
+      <button onclick="k()" class="border-2 bg-black text-white p-4 m-2">
+        K
+      </button>
+      <button onclick="l()" class="border-2 bg-black text-white p-4 m-2">
+        L
+      </button>
+      <button onclick="m()" class="border-2 bg-black text-white p-4 m-2">
+        M
+      </button>
+      <button onclick="n()" class="border-2 bg-black text-white p-4 m-2">
+        N
+      </button>
+      <button onclick="o()" class="border-2 bg-black text-white p-4 m-2">
+        O
+      </button>
+      <button onclick="p()" class="border-2 bg-black text-white p-4 m-2">
+        P
+      </button>
+      <button onclick="q()" class="border-2 bg-black text-white p-4 m-2">
+        Q
+      </button>
+      <button onclick="r()" class="border-2 bg-black text-white p-4 m-2">
+        R
+      </button>
+      <button onclick="s()" class="border-2 bg-black text-white p-4 m-2">
+        S
+      </button>
+      <button onclick="t()" class="border-2 bg-black text-white p-4 m-2">
+        T
+      </button>
+      <button onclick="u()" class="border-2 bg-black text-white p-4 m-2">
+        U
+      </button>
+      <button onclick="v()" class="border-2 bg-black text-white p-4 m-2">
+        V
+      </button>
+      <button onclick="w()" class="border-2 bg-black text-white p-4 m-2">
+        W
+      </button>
+      <button onclick="x()" class="border-2 bg-black text-white p-4 m-2">
+        X
+      </button>
+      <button onclick="y()" class="border-2 bg-black text-white p-4 m-2">
+        Y
+      </button>
+      <button onclick="z()" class="border-2 bg-black text-white p-4 m-2">
+        Z
+      </button>
+    </div>
+    <script>
+      let word = "";
+
+      function a() {
+        word = word + "A";
+        document.getElementById("click").innerHTML = word;
+      }
+      function b() {
+        word = word + "B";
+        document.getElementById("click").innerHTML = word;
+      }
+      function c() {
+        word = word + "C";
+        document.getElementById("click").innerHTML = word;
+      }
+      function d() {
+        word = word + "D";
+        document.getElementById("click").innerHTML = word;
+      }
+      function e() {
+        word = word + "E";
+        document.getElementById("click").innerHTML = word;
+      }
+      function f() {
+        word = word + "F";
+        document.getElementById("click").innerHTML = word;
+      }
+      function g() {
+        word = word + "G";
+        document.getElementById("click").innerHTML = word;
+      }
+      function h() {
+        word = word + "H";
+        document.getElementById("click").innerHTML = word;
+      }
+      function i() {
+        word = word + "I";
+        document.getElementById("click").innerHTML = word;
+      }
+      function j() {
+        word = word + "J";
+        document.getElementById("click").innerHTML = word;
+      }
+      function k() {
+        word = word + "K";
+        document.getElementById("click").innerHTML = word;
+      }
+      function l() {
+        word = word + "L";
+        document.getElementById("click").innerHTML = word;
+      }
+      function m() {
+        word = word + "M";
+        document.getElementById("click").innerHTML = word;
+      }
+      function n() {
+        word = word + "N";
+        document.getElementById("click").innerHTML = word;
+      }
+      function o() {
+        word = word + "O";
+        document.getElementById("click").innerHTML = word;
+      }
+      function p() {
+        word = word + "P";
+        document.getElementById("click").innerHTML = word;
+      }
+      function q() {
+        word = word + "Q";
+        document.getElementById("click").innerHTML = word;
+      }
+      function r() {
+        word = word + "R";
+        document.getElementById("click").innerHTML = word;
+      }
+      function s() {
+        word = word + "S";
+        document.getElementById("click").innerHTML = word;
+      }
+      function t() {
+        word = word + "T";
+        document.getElementById("click").innerHTML = word;
+      }
+      function u() {
+        word = word + "U";
+        document.getElementById("click").innerHTML = word;
+      }
+      function v() {
+        word = word + "V";
+        document.getElementById("click").innerHTML = word;
+      }
+      function w() {
+        word = word + "W";
+        document.getElementById("click").innerHTML = word;
+      }
+      function x() {
+        word = word + "X";
+        document.getElementById("click").innerHTML = word;
+      }
+      function y() {
+        word = word + "Y";
+        document.getElementById("click").innerHTML = word;
+      }
+      function z() {
+        word = word + "Z";
+        document.getElementById("click").innerHTML = word;
+      }
+
+      function blue() {
+        word = "";
+        document.getElementById("click").innerHTML = word;
+        document.getElementById("result").innerHTML = "";
+        document.getElementById("res").href = "#";
+      }
+      function submit() {
+        let linkgoogle =
+          "https://www.google.com/search?q=hello&sca_esv=f684702dde6df33f&sxsrf=ADLYWIL9IjoL5mO1ADg1bX8x1LWWktik2A%3A1731765794614&source=hp&ei=IqY4Z7zNIsWp2roPysrPsQk&iflsig=AL9hbdgAAAAAZzi0MnRKv95jnKflAY-fvFeZCyHTUoUW&ved=0ahUKEwi85pOoguGJAxXFlFYBHUrlM5YQ4dUDCBg&uact=5&oq=hello&gs_lp=Egdnd3Mtd2l6IgVoZWxsbzIQEC4YgAQYsQMYQxjJAxiKBTIKEAAYgAQYQxiKBTIKEAAYgAQYQxiKBTIIEAAYgAQYsQMyDRAAGIAEGLEDGEMYigUyCxAAGIAEGJIDGIoFMggQABiABBixAzIKEAAYgAQYQxiKBTIIEAAYgAQYsQMyEBAuGIAEGNEDGEMYxwEYigVIzAVQAFj0A3AAeACQAQCYAaICoAHuCaoBAzItNbgBA8gBAPgBAZgCBaACkQrCAgQQIxgnwgILEAAYgAQYsQMYgwHCAgoQIxiABBgnGIoFwgIKEC4YgAQYQxiKBcICDRAuGIAEGLEDGEMYigWYAwCSBwMyLTWgB4E2&sclient=gws-wiz";
+
+        let message = document.getElementById("click").value;
+        let linkGOOGLE = linkgoogle.replace("hello", message);
+        document.getElementById("result").innerHTML = message;
+        document.getElementById("res").href = linkGOOGLE;
+      }
+    </script>
+  </body>
+</html>
